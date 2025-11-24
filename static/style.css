@@ -1,0 +1,27 @@
+body {
+    font-family: system-ui, -apple-system, "Noto Sans JP", sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+input,
+button {
+    font-size: 16px;
+    padding: 6px 10px;
+}
+
+#box {
+    max-width: 680px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+}
