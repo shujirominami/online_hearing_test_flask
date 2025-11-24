@@ -1,16 +1,17 @@
 // ===== 1) 単語と音源の一覧 =====
 const ITEMS = [
-  { word: "アカガネ", audio: "audio/mya_10101db-0.wav" },
-  { word: "ワラバイ", audio: "audio/mya_10102db-0.wav" },
-  { word: "ラシャメン", audio: "audio/mya_10103db-0.wav" },
-  { word: "ザイカタ", audio: "audio/mya_10104db-0.wav" },
-  { word: "カワヨド", audio: "audio/mya_10105db-0.wav" },
-  { word: "タカドノ", audio: "audio/mya_10106db-0.wav" },
-  { word: "ドカヒン", audio: "audio/mya_10107db-0.wav" },
-  { word: "ソマヤマ", audio: "audio/mya_10108db-0.wav" },
-  { word: "サトバラ", audio: "audio/mya_10109db-0.wav" },
-  { word: "モロハク", audio: "audio/mya_10110db-0.wav" }
+  {word:"アカガネ", audio:"static/audio/mya_10101db-0.wav"},
+  {word:"ワラバイ", audio:"static/audio/mya_10102db-0.wav"},
+  {word:"ラシャメン", audio:"static/audio/mya_10103db-0.wav"},
+  {word:"ザイカタ", audio:"static/audio/mya_10104db-0.wav"},
+  {word:"カワヨド", audio:"static/audio/mya_10105db-0.wav"},
+  {word:"タカドノ", audio:"static/audio/mya_10106db-0.wav"},
+  {word:"ドカヒン", audio:"static/audio/mya_10107db-0.wav"},
+  {word:"ソマヤマ", audio:"static/audio/mya_10108db-0.wav"},
+  {word:"サトバラ", audio:"static/audio/mya_10109db-0.wav"},
+  {word:"モロハク", audio:"static/audio/mya_10110db-0.wav"}
 ];
+
 
 // ===== 2) ごく簡単な正規化 =====
 function normalize(t) {
